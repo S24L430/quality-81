@@ -36,6 +36,7 @@ import java.util.Optional;
 public class HelloWorldModel {
 
     public static final String PASSWORD="pass";
+    //Adding commits for new branch
 
     @ValueMapValue(name = PROPERTY_RESOURCE_TYPE, injectionStrategy = InjectionStrategy.OPTIONAL)
     @Default(values = "No resourceType")
